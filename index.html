@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>
+            Nime
+        </title>
+    </head>
+    <body>
+        <p id="min"></p>
+        <script>
+            function sumAll(){
+            var sum=0
+            for(i = 0; i < arguments.length; i++){
+                sum += arguments[i];
+            }
+            return sum;
+            }
+
+            document.getElementById("min").innerHTML = sumAll(1, 239, 567, 764, 389, 572)
+
+            var value = Math.asin(45);
+            document.write("The sin  of 45 degrees is " + value + "<br>")
+
+            var value1 = Math.atan(45);
+            document.write("The tan  of 45 degrees is " + value1 + "<br>")
+
+            var value2 = Math.acos(45);
+            document.write("The cos  of 45 degrees is " + value2 + "<br>")
+
+
+
+        </script>
+
+
+
+    </body>
+</html>
